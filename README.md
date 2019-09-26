@@ -13,10 +13,10 @@ This should take from 15 min to 30 min depending on your PC
 
 
 ## Testing the model:
-### 1- open "test_model.py" file.
+### 1- Open "test_model.py" file.
 for best experience try working with jupyter or python interactive so that you don't load the whole model every time you test.
 
-### 2- change the words
+### 2- Change the words in the file
 
 ### 3- Run in cmd "python test_model.py"
 
