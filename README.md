@@ -37,11 +37,13 @@ Arabic-Word-Embeddings-Word2vec
 https://github.com/rozester/Arabic-Word-Embeddings-Word2vec
 
 
+
+
 ## Many thanks to Dataset Authors:
 
-""" @MISC{PCD2018,
-    author = {Waleed A. Yousef and Omar M. Ibrahime and Taha M. Madbouly and Moustafa A. Mahmoud and Ali H. El-Kassas and Ali O. Hassan and Abdallah R. Albohy},
+@MISC{PCD2018,
+    author = {Waleed A. Yousef and Omar M. Ibrahime and Taha M. Madbouly and Moustafa A. Mahmoud and Ali H. El-Kassas and Ali O. Hassan     and Abdallah R. Albohy},
     year   = 2018,
     title  = {Poem Comprehensive Dataset (PCD)},
     url   = {https://hci-lab.github.io/ArabicPoetry-1-Private/#PCD}
-}"""
+}
