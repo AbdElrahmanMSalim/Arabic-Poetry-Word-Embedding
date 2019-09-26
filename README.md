@@ -10,7 +10,7 @@ Word Embedding for Arabic Poetry using Word2Vec
 ### 2- Run in cmd "python build_model.py"
 This should take from 15 min to 30 min depending on your PC
 
-## --
+
 
 ## Testing the model:
 ### 1- open "test_model.py" file.
@@ -20,7 +20,7 @@ for best experience try working with jupyter or python interactive so that you d
 
 ### 3- Run in cmd "python test_model.py"
 
-## --
+
 
 ## Visualizing the model:
 ### 1- You need to install the following packages:
