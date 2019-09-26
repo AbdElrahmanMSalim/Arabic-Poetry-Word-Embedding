@@ -3,9 +3,9 @@ Word Embedding for Arabic Poetry using Word2Vec
 
 ## Building Word2Vec model:
 ### 1- Firstly, you need to install the following packages:
-    a- "pip install gensim"
-    b- "pip install pandas"
-    c- "pip install pyarabic"
+    pip install gensim
+    pip install pandas
+    pip install pyarabic
 
 ### 2- Run in cmd "python build_model.py"
 This should take from 15 min to 30 min depending on your PC
@@ -24,10 +24,10 @@ for best experience try working with jupyter or python interactive so that you d
 
 ## Visualizing the model:
 ### 1- You need to install the following packages:
-    a- "pip install sklearn"
-    b- "pip install python-bidi"
-    c- "pip install arabic_reshaper"
-    d- "pip install matplotlib"
+    pip install sklearn
+    pip install python-bidi
+    pip install arabic_reshaper
+    pip install matplotlib
 
 ### 2- Run in cmd "python load_and_visualize_model.py" 
 This will visualize the first 100 words
