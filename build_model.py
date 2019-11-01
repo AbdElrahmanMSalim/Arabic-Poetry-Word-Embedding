@@ -1,4 +1,3 @@
-
 from gensim.models import Word2Vec
 import pandas as pd
 from pyarabic.araby import strip_tashkeel, separate
@@ -19,4 +18,4 @@ for i in df['Bayt_Text']:
     Bigger_list.append(li)
 
 model = Word2Vec(Bigger_list, size=300, window=5, min_count=1, workers=4, sg=1)
-model.save("model.bin")
+model.wv.save_word2vec_format("word2vec_format")
