@@ -2,6 +2,8 @@
 
 Word Embedding for Arabic Poetry using Word2Vec
 
+![](https://media.giphy.com/media/LpG34AskA447Wy7icY/giphy.gif)
+
 ## Building Word2Vec model:
 
 ### 1- Firstly, you need to install the following packages:
@@ -25,6 +27,8 @@ for best experience try working with jupyter or python interactive so that you d
 
 ## Visualizing the model:
 
+I have set the NUMBER_OF_WORDS_TO_VISUALIZE to 10000 word, If you want you can change this in visualize.py file, this embedding has around 900000 words.
+
 ### 1- You need to install the following packages:
 
     pip install tensorflow==1.14.0 // this is the tested version on tensorflow-gpu
@@ -38,6 +42,14 @@ for best experience try working with jupyter or python interactive so that you d
 
     python visualize.py word2vec_format visualize_result
     tensorboard --logdir=visualize_result
+
+### 4- Go to your browser and type:
+
+    http://localhost:6006/
+
+### 5- Select projector from the drop down list on the top right corner.
+
+you may need to refresh the page after loading
 
 ## Many thanks to Dataset Authors:
 
